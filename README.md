@@ -3,7 +3,6 @@ CS-341 Assignment - Make a UNIX Shell with basic functionalities like cd, ls, rm
 
 ## Features implemented :
 
-#### ```> help```
 ### ``` Basic commands: pwd, clear,cd,ls ```
 
 ### ``` history n ```
@@ -32,8 +31,9 @@ to delete all files except a,b
 usage format: rmexcept a b
 
 ### ``` I/O redirection (use of dup2 system call) limited to the following format ```
-<cmd> <args> > <output>
-<cmd> <args> < <input> > <output>
+< cmd> < args> > < output>
+
+< cmd> < args> < < input> > < output>
 
 ### ``` Environment management ```
 can print environment variables,set them or unset them.
